@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Travel company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header-cz">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">O NAS</a></li>
+                    <li><a href="oferta.html">OFERTA</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CZECHY</h1>
+    </section>
+    <!-----contact us------>
+
+
+
+    <section class="location">
+        <div class="wrapper">
+            <input type="radio" name="point" id="slidecz1" checked>
+            <input type="radio" name="point" id="slidecz2">
+            <input type="radio" name="point" id="slidecz3">
+            <input type="radio" name="point" id="slidecz4">
+            <input type="radio" name="point" id="slidecz5">
+            <div class="slider">
+                <div class="slides slidecz1"></div>
+                <div class="slides slidecz2"></div>
+                <div class="slides slidecz3"></div>
+                <div class="slides slidecz4"></div>
+                <div class="slides slidecz5"></div>
+            </div>
+            <div class="controls">
+                <label for="slidecz1"></label>
+                <label for="slidecz2"></label>
+                <label for="slidecz3"></label>
+                <label for="slidecz4"></label>
+                <label for="slidecz5"></label>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <p>
+                    Czechy to małe Państwo w Europie Środkowej. 
+                    Jest to jeden z najbardziej charakterystycznych i atrakcyjnych dla turystów krajów Unii 
+                    Europejskiej z bogatą historią, wieloma interesującymi zabytkami, zamkami i zabytkami kultury. 
+                    Czechy graniczą na północy z Polska, na Zachodzie i północnym zachodzie z Niemcami, na Wschodzie ze Słowacja, na południu z Austria.
+                </p>
+                <br>
+                <p>
+                    Co przychodzi na myśl, gdy mówimy o Czechach? To Gotyckie iglice Pragi i praskie uliczki, 
+                    to starożytny Most Karola nad Wełtawą, to setki zamków i kościołów w przytulnych starych 
+                    miasteczkach, to wspaniałe piwo i pyszne jedzenie.
+                </p>
+                <div class="comment-box">
+                    <h3>Ciekawe? Następnie wypełnij formularz, a skontaktujemy się z tobą.</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">ZOZTAĆ KOMENTARZ</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <div class="blog-right">
+                <h3>Сiekawa informacja</h3>
+                <div>
+                    <span>Stolica</span>
+                    <span>Praga</span>
+                </div>
+                <div>
+                    <span>Ludność</span>
+                    <span>11 000 000</span>
+                </div>
+                <div>
+                    <span>Waluta krajowa</span>
+                    <span>Korona Kč⁣</span>
+                </div>
+                <div>
+                    <span>Odległość od Warszawy do Berlina</span>
+                    <span>517 KM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Loren Impus Loren Impus Loren Impus
+            Loren ImpusLoren Impus Loren Impus Loren Impus Loren Impus
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i></p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Travel company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header-fr">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">O NAS</a></li>
+                    <li><a href="oferta.html">OFERTA</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>FRANCJA</h1>
+    </section>
+    <!-----contact us------>
+
+
+
+    <section class="location">
+        <div class="wrapper">
+            <input type="radio" name="point" id="slidefr1" checked>
+            <input type="radio" name="point" id="slidefr2">
+            <input type="radio" name="point" id="slidefr3">
+            <input type="radio" name="point" id="slidefr4">
+            <input type="radio" name="point" id="slidefr5">
+            <div class="slider">
+                <div class="slides slidefr1"></div>
+                <div class="slides slidefr2"></div>
+                <div class="slides slidefr3"></div>
+                <div class="slides slidefr4"></div>
+                <div class="slides slidefr5"></div>
+            </div>
+            <div class="controls">
+                <label for="slidefr1"></label>
+                <label for="slidefr2"></label>
+                <label for="slidefr3"></label>
+                <label for="slidefr4"></label>
+                <label for="slidefr5"></label>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <p>
+                    Francja - Kraj w Europie Zachodniej, w skład którego wchodzi również kilka terytoriów zamorskich. 
+                    Jest to jeden z wiodących i największych krajów kontynentu europejskiego, 
+                    graniczący na północnym wschodzie z Belgią, Luksemburgiem i 
+                    Niemcami, na Wschodzie ze Szwajcarią, na południowym wschodzie z Księstwem Monako i Włochami, na południowym zachodzie z Hiszpanią i miniaturową Andorą. 
+                    Terytorium Francji jest myte na północnym zachodzie przez Ocean Atlantycki, 
+                    na północnym wschodzie przez Morze Północne, a na południu przez ciepłe Morze Śródziemne.
+                </p>
+                <br>
+                <p>
+                    Francja jest jednym z najpiękniejszych i najciekawszych krajów Europy z najbogatszą historią i wspaniałym dziedzictwem kulturowym. 
+                    Słynie z malowniczej przyrody i przytulnych starożytnych miast, nowoczesnych metropolii i modnych kurortów, światowej sławy muzeów i wyśmienitej kuchni.
+                </p>
+                <div class="comment-box">
+                    <h3>Ciekawe? Następnie wypełnij formularz, a skontaktujemy się z tobą.</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">ZOZTAĆ KOMENTARZ</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <div class="blog-right">
+                <h3>Сiekawa informacja</h3>
+                <div>
+                    <span>Stolica</span>
+                    <span>Paryż</span>
+                </div>
+                <div>
+                    <span>Ludność</span>
+                    <span>67 000 000</span>
+                </div>
+                <div>
+                    <span>Waluta krajowa</span>
+                    <span>Euro €⁣</span>
+                </div>
+                <div>
+                    <span>Odległość od Warszawy do Berlina</span>
+                    <span>1594 KM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Loren Impus Loren Impus Loren Impus
+            Loren ImpusLoren Impus Loren Impus Loren Impus Loren Impus
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i></p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>

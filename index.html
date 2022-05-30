@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Travel company</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">O NAS</a></li>
+                    <li><a href="oferta.html">OFERTA</a></li>
+                    <li><a href="contact.html">KONTAKT</a></li>
+                </ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+            <h1>Travel.PL - najlepsze podróże po Europie</h1>
+            <p>
+                Tylko u nas znajdziesz podróże do ponad 60 krajów Europy w najlepszych cenach.
+                Wybierz wycieczkę szybciej i przejdź do przygody.<br>Mamy tylko najlepsze oferty!
+            </p>
+            <a href="about.html" class="hero-btn">Dowiedz Się Więcej O Nas</a>
+		</div>
+	</section>
+	
+	
+    <section class="campus">
+        <h1>Nasza Najlepsza Oferta</h1>
+        <p>Najczęściej odwiedzane kraje w ciągu miesiąca</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/germany.jpg">
+                <a href="niemcy.html"><div class="layer">
+                    <h3>NIEMCY</h3>
+                </div></a>
+            </div>
+            <div class="campus-col">
+                <img src="images/france.jpg">
+                <a href="francja.html"><div class="layer">
+                    <h3>FRANCJA</h3>
+                </div></a>
+            </div>
+            <div class="campus-col">
+                <img src="images/Prague.jpg">
+                <a href="czechy.html"><div class="layer">
+                    <h3>CZECHY</h3>
+                </div></a>
+            </div>
+        </div>
+    </section>
+	
+    <section class="facilities">
+        <h1>Co możemy zaoferować</h1>
+        <p>Gwarantujemy najlepszą jakość! Twoja wygoda jest dla nas ważna!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/bus.jpg">
+                <h3>Tylko nowe autobusy</h3>
+                <p>
+                    W naszych autobusach możesz naprawdę odpocząć! Mają lepsze warunki i bezpieczeństwo. 
+                    W autobusie znajdziesz toaletę, bezpłatny bezprzewodowy dostęp do Internetu i przestronne siedzenia.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/food.jpg">
+                <h3>Jedzenie od najlepszych kucharzy w Europie.</h3>
+                <p>
+                    Najlepsi szefowie kuchni w Europie pracowali 
+                    nad opracowaniem menu, abyś mógł naprawdę cieszyć się drogą.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/driver.jpg">
+                <h3>Doświadczeni kierowcy</h3>
+                <p>
+                    Wszyscy nasi kierowcy przechodzą egzamin przed wyjazdem na wycieczkę 
+                    i odpoczywają bardzo dobrze, więc nie musisz się martwić o swoje bezpieczeństwo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>Komentarze</h1>
+        <p>Oni już wypróbowali nasze usługi i oto, co mówią</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>
+                        Już bardzo długo podróżuję z Travel.PL oczywiście, jak wszystkie firmy, nie są idealne.
+                        Ale Travel.PL podoba mi się najbardziej. Personal kompetentnie podchodzi do swojej działalności i to jest najważniejsze!
+                    </p>
+                    <h3>Giga Chad</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>
+                        To była moja pierwsza podróż po Europie i jak dobrze że wybrałem Travel.PL wszystko było w porządku, 
+                        nawet się nie spodziewałem. Autobus był naprawdę świetny! 
+                        Jedzenie bardzo smaczne a od kierowcy promieniowało życzliwością.
+                    </p>
+                    <h3>Alex Priadko</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Podoba ci się?<br>Skontaktuj się z nami już teraz.</h1>
+        <a href="contact.html" class="hero-btn">SKONTAKTOWAĆ</a>
+    </section>
+
+    <section class="footer">
+        <h4>O Nas</h4>
+        <p>
+            Tylko najlepsze oferty w niskich cenach
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i href="https://www.instagram.com/sv_melnikovv/" class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i></p>
+    </section>
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.right = "0";
+	}
+	
+	function hideMenu() {
+		navLinks.style.right = "-200px";
+	}
+</script>	
+
+
+</body>
+</html>
