@@ -125,8 +125,8 @@ nav .fa{
 }
 
 /*-----Travels------*/
-
-.course {
+/**/
+.ofert {
 	width: 80%;
 	margin: auto;
 	text-align: center;
@@ -152,7 +152,7 @@ p{
 	justify-content: space-between;
 }
 
-.course-col {
+.ofert-col {
     flex-basis: 31%;
     background: #D4EDFF;
     border-radius: 10px;
@@ -168,7 +168,7 @@ h3 {
     margin: 10px 0;
 }
 
-.course-col:hover {
+.ofert-col:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
@@ -178,14 +178,14 @@ h3 {
     }
 }
 
-.campus {
+.travel {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.campus-col {
+.travel-col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -193,7 +193,7 @@ h3 {
     overflow: hidden;
 }
 
-.campus-col img {
+.travel-col img {
     width: 100%;
     display: block;
 }
@@ -233,7 +233,7 @@ h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .facilities-col {
@@ -261,7 +261,7 @@ h3 {
 .testimonials {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -388,7 +388,15 @@ h3 {
 }
 
 .about-col p {
-    padding: 15px 0 25px;
+    padding: 15px 0 0px;
+    font-size: 15px;
+}
+
+.about-col ul{
+    padding: 15px 21px 25px;
+    font-size: 15px;
+    color: #777;
+
 }
 
 .red-btn {
@@ -403,38 +411,38 @@ h3 {
 
 /*blog content*/
 
-.blog-content {
+.local-content {
     width: 80%;
     margin: auto;
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
-.blog-left {
+.local-left {
     flex-basis: 40%;
 
 }
 
-.blog-left img {
+.local-left img {
     width: 100%;
 
 }
 
-.blog-left h2 {
+.local-left h2 {
     color: #222;
     font-weight: 600;
     margin: 30px 0;
 }
 
-.blog-left p {
+.local-left p {
     color: #999;
     padding: 0;
 }
 
-.blog-right {
+.local-right {
     flex-basis: 32%;
 }
 
-.blog-right h3 {
+.local-right h3 {
     background: #AED4EF;
     color: #fff;
     padding: 7px 0;
@@ -442,7 +450,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.blog-right div {
+.local-right div {
     display: flex;
     align-items: center;
     justify-content: space-between;
